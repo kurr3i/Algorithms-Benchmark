@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BenchmarkOrdenamiento</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+
+    <!--
+      Se desactiva la compilación por niveles (tiered compilation) para que el JIT
+      genere desde la primera llamada el código final optimizado. Así el calentamiento
+      (descartar la primera ejecución) basta para eliminar el ruido del JIT.
+    -->
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+
+</Project>

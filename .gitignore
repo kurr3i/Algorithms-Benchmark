@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDEs / sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
